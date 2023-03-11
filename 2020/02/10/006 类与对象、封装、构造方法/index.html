@@ -16,19 +16,25 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="article">
-<meta property="og:title" content="my first blog">
-<meta property="og:url" content="http://example.com/2023/03/11/my-first-blog/index.html">
+    <meta name="description" content="**什么是类 **  类：是一组相关属性和行为的集合。可以看成是一类事物的模板，使用事物的属性特征和行为特征来描述该类事物。 属性：就是该事物的状态信息。  行为：就是该事物能够做什么。    什么是对象 对象：是一类事物的具体体现。对象是类的一个实例（对象并不是找个女朋友），必然具备该类事物的属性 和行为。  **类与对象的关系 **  类是对一类事物的描述，是抽象的。  对象是一类事物的实例，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="006 类与对象、封装、构造方法">
+<meta property="og:url" content="http://example.com/2020/02/10/006%20%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E3%80%81%E5%B0%81%E8%A3%85%E3%80%81%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="**什么是类 **  类：是一组相关属性和行为的集合。可以看成是一类事物的模板，使用事物的属性特征和行为特征来描述该类事物。 属性：就是该事物的状态信息。  行为：就是该事物能够做什么。    什么是对象 对象：是一类事物的具体体现。对象是类的一个实例（对象并不是找个女朋友），必然具备该类事物的属性 和行为。  **类与对象的关系 **  类是对一类事物的描述，是抽象的。  对象是一类事物的实例，">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-03-11T02:29:48.000Z">
-<meta property="article:modified_time" content="2023-03-11T02:29:48.463Z">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650619401387-07fe92fd-bc3a-4ba5-b3c9-70b7c3fe11ca.png#clientId=ufcf332fd-e885-4&from=paste&height=354&id=u8f0ed3c4&name=image.png&originHeight=443&originWidth=705&originalType=binary&ratio=1&rotation=0&showTitle=false&size=211938&status=done&style=none&taskId=u5c3638f0-ed72-4180-bfd7-69ffba30118&title=&width=564">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650619445914-efc784d4-f7be-4b19-be23-7a67027b3bba.png#clientId=ufcf332fd-e885-4&from=paste&height=278&id=u0997a6f2&name=image.png&originHeight=347&originWidth=692&originalType=binary&ratio=1&rotation=0&showTitle=false&size=207499&status=done&style=none&taskId=uc19f69ad-d75c-4f4e-9aeb-93fc25ce884&title=&width=553.6">
+<meta property="article:published_time" content="2020-02-10T06:47:40.000Z">
+<meta property="article:modified_time" content="2023-03-11T06:58:12.183Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="类与对象 - 封装 - 构造方法">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650619401387-07fe92fd-bc3a-4ba5-b3c9-70b7c3fe11ca.png#clientId=ufcf332fd-e885-4&from=paste&height=354&id=u8f0ed3c4&name=image.png&originHeight=443&originWidth=705&originalType=binary&ratio=1&rotation=0&showTitle=false&size=211938&status=done&style=none&taskId=u5c3638f0-ed72-4180-bfd7-69ffba30118&title=&width=564">
   
   
   
-  <title>my first blog - Hexo</title>
+  <title>006 类与对象、封装、构造方法 - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -194,7 +200,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="my first blog"></span>
+            <span id="subtitle" data-typed-text="006 类与对象、封装、构造方法"></span>
           
         </div>
 
@@ -205,8 +211,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-03-11 10:29" pubdate>
-          2023年3月11日 上午
+        <time datetime="2020-02-10 14:47" pubdate>
+          2020年2月10日 下午
         </time>
       </span>
     
@@ -217,7 +223,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          0 字
+          450 字
         
       </span>
     
@@ -228,7 +234,7 @@
         
         
         
-          1 分钟
+          4 分钟
         
       </span>
     
@@ -266,12 +272,31 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">my first blog</h1>
+            <h1 style="display: none">006 类与对象、封装、构造方法</h1>
             
             
               <div class="markdown-body">
                 
-                
+                <p>**什么是类 **</p>
+<ul>
+<li><strong>类</strong>：是一组相关<strong>属性</strong>和<strong>行为</strong>的集合。可以看成是一类事物的模板，使用事物的属性特征和行为特征来描述该类事物。</li>
+<li><strong>属性</strong>：就是该事物的状态信息。 </li>
+<li><strong>行为</strong>：就是该事物能够做什么。 </li>
+<li><br /></li>
+</ul>
+<p><strong>什么是对象 <strong><br /><strong>对象</strong>：是一类事物的具体体现。对象是类的一个</strong>实例</strong>（对象并不是找个女朋友），必然具备该类事物的属性 和行为。 </p>
+<p>**类与对象的关系 **</p>
+<ul>
+<li>类是对一类事物的描述，是<strong>抽象的</strong>。 </li>
+<li>对象是一类事物的实例，是<strong>具体的</strong>。 </li>
+<li><strong>类是对象的模板，对象是类的实体</strong>。</li>
+</ul>
+<p><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650619401387-07fe92fd-bc3a-4ba5-b3c9-70b7c3fe11ca.png#clientId=ufcf332fd-e885-4&from=paste&height=354&id=u8f0ed3c4&name=image.png&originHeight=443&originWidth=705&originalType=binary&ratio=1&rotation=0&showTitle=false&size=211938&status=done&style=none&taskId=u5c3638f0-ed72-4180-bfd7-69ffba30118&title=&width=564" srcset="/img/loading.gif" lazyload alt="image.png"><br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650619445914-efc784d4-f7be-4b19-be23-7a67027b3bba.png#clientId=ufcf332fd-e885-4&from=paste&height=278&id=u0997a6f2&name=image.png&originHeight=347&originWidth=692&originalType=binary&ratio=1&rotation=0&showTitle=false&size=207499&status=done&style=none&taskId=uc19f69ad-d75c-4f4e-9aeb-93fc25ce884&title=&width=553.6" srcset="/img/loading.gif" lazyload alt="image.png"></p>
+<p><a name="j7cwk"></a></p>
+<h1 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h1><p><strong>概述</strong><br />面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。 <br />封装可以被认为是一个保护屏障，防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。 <br /><strong>原则</strong><br />将<strong>属性隐藏</strong>起来，若需要访问某个属性，<strong>提供公共方法</strong>对其访问。 </p>
+<p><a name="YIFOI"></a></p>
+<h1 id="this"><a href="#this" class="headerlink" title="this"></a>this</h1><p>this代表所在类的当前对象的引用（地址值），即对象自己的引用。 <br />记住 ：方法被哪个对象调用，方法中的this就代表那个对象。即谁在调用，this就代表谁。 </p>
+
                 
               </div>
             
@@ -279,6 +304,34 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/JavaSe/" class="category-chain-item">JavaSe</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1-%E5%B0%81%E8%A3%85-%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/">#类与对象 - 封装 - 构造方法</a>
+      
+    </div>
   
 </div>
 
@@ -288,8 +341,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>my first blog</div>
-      <div>http://example.com/2023/03/11/my-first-blog/</div>
+      <div>006 类与对象、封装、构造方法</div>
+      <div>http://example.com/2020/02/10/006 类与对象、封装、构造方法/</div>
     </div>
     <div class="license-meta">
       
@@ -301,7 +354,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年3月11日</div>
+          <div>2020年2月10日</div>
         </div>
       
       
@@ -333,12 +386,18 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/2020/02/10/004%20IDEA%E3%80%81%E6%96%B9%E6%B3%95/" title="004 IDEA、方法">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">004 IDEA、方法</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/03/11/hello-world/" title="Hello World">
-                        <span class="hidden-mobile">Hello World</span>
+                      <a href="/2020/02/10/007%20Scanner%E7%B1%BB%E3%80%81Random%E7%B1%BB%E3%80%81ArrayList%E7%B1%BB/" title="007 Scanner、Random、ArrayList类">
+                        <span class="hidden-mobile">007 Scanner、Random、ArrayList类</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
