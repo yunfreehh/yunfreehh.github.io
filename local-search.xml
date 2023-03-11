@@ -136,6 +136,31 @@
   
   
   <entry>
+    <title>006 类与对象、封装、构造方法</title>
+    <link href="/2020/02/10/006%20%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E3%80%81%E5%B0%81%E8%A3%85%E3%80%81%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/"/>
+    <url>/2020/02/10/006%20%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E3%80%81%E5%B0%81%E8%A3%85%E3%80%81%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<p>**什么是类 **</p><ul><li><strong>类</strong>：是一组相关<strong>属性</strong>和<strong>行为</strong>的集合。可以看成是一类事物的模板，使用事物的属性特征和行为特征来描述该类事物。</li><li><strong>属性</strong>：就是该事物的状态信息。 </li><li><strong>行为</strong>：就是该事物能够做什么。 </li><li><br /></li></ul><p><strong>什么是对象 <strong><br /><strong>对象</strong>：是一类事物的具体体现。对象是类的一个</strong>实例</strong>（对象并不是找个女朋友），必然具备该类事物的属性 和行为。 </p><p>**类与对象的关系 **</p><ul><li>类是对一类事物的描述，是<strong>抽象的</strong>。 </li><li>对象是一类事物的实例，是<strong>具体的</strong>。 </li><li><strong>类是对象的模板，对象是类的实体</strong>。</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650619401387-07fe92fd-bc3a-4ba5-b3c9-70b7c3fe11ca.png#clientId=ufcf332fd-e885-4&from=paste&height=354&id=u8f0ed3c4&name=image.png&originHeight=443&originWidth=705&originalType=binary&ratio=1&rotation=0&showTitle=false&size=211938&status=done&style=none&taskId=u5c3638f0-ed72-4180-bfd7-69ffba30118&title=&width=564" alt="image.png"><br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650619445914-efc784d4-f7be-4b19-be23-7a67027b3bba.png#clientId=ufcf332fd-e885-4&from=paste&height=278&id=u0997a6f2&name=image.png&originHeight=347&originWidth=692&originalType=binary&ratio=1&rotation=0&showTitle=false&size=207499&status=done&style=none&taskId=uc19f69ad-d75c-4f4e-9aeb-93fc25ce884&title=&width=553.6" alt="image.png"></p><p><a name="j7cwk"></a></p><h1 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h1><p><strong>概述</strong><br />面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。 <br />封装可以被认为是一个保护屏障，防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。 <br /><strong>原则</strong><br />将<strong>属性隐藏</strong>起来，若需要访问某个属性，<strong>提供公共方法</strong>对其访问。 </p><p><a name="YIFOI"></a></p><h1 id="this"><a href="#this" class="headerlink" title="this"></a>this</h1><p>this代表所在类的当前对象的引用（地址值），即对象自己的引用。 <br />记住 ：方法被哪个对象调用，方法中的this就代表那个对象。即谁在调用，this就代表谁。 </p>]]></content>
+    
+    
+    <categories>
+      
+      <category>JavaSe</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>类与对象 - 封装 - 构造方法</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>007 Scanner、Random、ArrayList类</title>
     <link href="/2020/02/10/007%20Scanner%E7%B1%BB%E3%80%81Random%E7%B1%BB%E3%80%81ArrayList%E7%B1%BB/"/>
     <url>/2020/02/10/007%20Scanner%E7%B1%BB%E3%80%81Random%E7%B1%BB%E3%80%81ArrayList%E7%B1%BB/</url>
@@ -157,31 +182,6 @@
       <tag>Random</tag>
       
       <tag>ArrayList类</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>006 类与对象、封装、构造方法</title>
-    <link href="/2020/02/10/006%20%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E3%80%81%E5%B0%81%E8%A3%85%E3%80%81%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/"/>
-    <url>/2020/02/10/006%20%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E3%80%81%E5%B0%81%E8%A3%85%E3%80%81%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/</url>
-    
-    <content type="html"><![CDATA[<p>**什么是类 **</p><ul><li><strong>类</strong>：是一组相关<strong>属性</strong>和<strong>行为</strong>的集合。可以看成是一类事物的模板，使用事物的属性特征和行为特征来描述该类事物。</li><li><strong>属性</strong>：就是该事物的状态信息。 </li><li><strong>行为</strong>：就是该事物能够做什么。 </li><li><br /></li></ul><p><strong>什么是对象 <strong><br /><strong>对象</strong>：是一类事物的具体体现。对象是类的一个</strong>实例</strong>（对象并不是找个女朋友），必然具备该类事物的属性 和行为。 </p><p>**类与对象的关系 **</p><ul><li>类是对一类事物的描述，是<strong>抽象的</strong>。 </li><li>对象是一类事物的实例，是<strong>具体的</strong>。 </li><li><strong>类是对象的模板，对象是类的实体</strong>。</li></ul><p><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650619401387-07fe92fd-bc3a-4ba5-b3c9-70b7c3fe11ca.png#clientId=ufcf332fd-e885-4&from=paste&height=354&id=u8f0ed3c4&name=image.png&originHeight=443&originWidth=705&originalType=binary&ratio=1&rotation=0&showTitle=false&size=211938&status=done&style=none&taskId=u5c3638f0-ed72-4180-bfd7-69ffba30118&title=&width=564" alt="image.png"><br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650619445914-efc784d4-f7be-4b19-be23-7a67027b3bba.png#clientId=ufcf332fd-e885-4&from=paste&height=278&id=u0997a6f2&name=image.png&originHeight=347&originWidth=692&originalType=binary&ratio=1&rotation=0&showTitle=false&size=207499&status=done&style=none&taskId=uc19f69ad-d75c-4f4e-9aeb-93fc25ce884&title=&width=553.6" alt="image.png"></p><p><a name="j7cwk"></a></p><h1 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h1><p><strong>概述</strong><br />面向对象编程语言是对客观世界的模拟，客观世界里成员变量都是隐藏在对象内部的，外界无法直接操作和修改。 <br />封装可以被认为是一个保护屏障，防止该类的代码和数据被其他类随意访问。要访问该类的数据，必须通过指定的方式。适当的封装可以让代码更容易理解与维护，也加强了代码的安全性。 <br /><strong>原则</strong><br />将<strong>属性隐藏</strong>起来，若需要访问某个属性，<strong>提供公共方法</strong>对其访问。 </p><p><a name="YIFOI"></a></p><h1 id="this"><a href="#this" class="headerlink" title="this"></a>this</h1><p>this代表所在类的当前对象的引用（地址值），即对象自己的引用。 <br />记住 ：方法被哪个对象调用，方法中的this就代表那个对象。即谁在调用，this就代表谁。 </p>]]></content>
-    
-    
-    <categories>
-      
-      <category>JavaSe</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>类与对象 - 封装 - 构造方法</tag>
       
     </tags>
     
@@ -248,35 +248,6 @@
   
   
   <entry>
-    <title>011 final、权限、内部类</title>
-    <link href="/2020/02/10/011%20final%E3%80%81%E6%9D%83%E9%99%90%E3%80%81%E5%86%85%E9%83%A8%E7%B1%BB/"/>
-    <url>/2020/02/10/011%20final%E3%80%81%E6%9D%83%E9%99%90%E3%80%81%E5%86%85%E9%83%A8%E7%B1%BB/</url>
-    
-    <content type="html"><![CDATA[<p><a name="WASJp"></a></p><h1 id="Final"><a href="#Final" class="headerlink" title="Final"></a>Final</h1><p><strong>Final</strong>： 不可改变。可以用于修饰类、方法和变量。 <br />类：被修饰的类，不能被继承。 <br />方法：被修饰的方法，不能被重写。 <br />变量：被修饰的变量，不能被重新赋值。 </p><p>一般将常量名全部用大写表示</p><p><strong>局部变量——基本类型</strong><br />基本类型的局部变量，被final修饰后，只能赋值一次，不能再更改。<br />**局部变量——引用类型 **<br />引用类型的局部变量，被final修饰后，只能指向一个对象，地址不能再更改。</p><p><a name="E3FQm"></a></p><h1 id="权限修饰符"><a href="#权限修饰符" class="headerlink" title="权限修饰符"></a>权限修饰符</h1><p>public  公共的<br />protect 受保护的<br />default 默认的<br />private 私有的<br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1651146093107-d3fb92ad-337f-4ce6-81b5-7f2ef1d4c2eb.png#clientId=ubb8d79da-2a69-4&from=paste&height=208&id=uad0ca63b&name=image.png&originHeight=397&originWidth=1482&originalType=binary&ratio=1&rotation=0&showTitle=false&size=54962&status=done&style=shadow&taskId=u55c993d2-6eb3-4a88-9009-2997cc52786&title=&width=776" alt="image.png"></p><p>回调方法(钩子方法)</p><p>子类的每一个方法开始和结束之前都需要调用一个方法,将该方法写成一个接口,<br />父类中写一个调用该口的方法;<br />在子类中调用执行该接口的方法并按需实现(抽象方法)<br />在父类中调用执行该接口(抽象方法)的方法,<br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1651581279530-f7d6c74d-afe3-4fea-8f8c-e174c45cc4cd.png#clientId=ub11884bc-faa4-4&from=paste&height=644&id=uecc25586&name=image.png&originHeight=805&originWidth=1409&originalType=binary&ratio=1&rotation=0&showTitle=false&size=411904&status=done&style=none&taskId=u1de983b2-c0ec-4a39-87f9-2397893ec29&title=&width=1127.2" alt="image.png"></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>JavaSe</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>final</tag>
-      
-      <tag>权限</tag>
-      
-      <tag>内部类</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>009 继承、super、this、抽象类</title>
     <link href="/2020/02/10/009%20%E7%BB%A7%E6%89%BF%E3%80%81super%E3%80%81this%E3%80%81%E6%8A%BD%E8%B1%A1%E7%B1%BB/"/>
     <url>/2020/02/10/009%20%E7%BB%A7%E6%89%BF%E3%80%81super%E3%80%81this%E3%80%81%E6%8A%BD%E8%B1%A1%E7%B1%BB/</url>
@@ -300,6 +271,35 @@
       <tag>this</tag>
       
       <tag>抽象类</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>011 final、权限、内部类</title>
+    <link href="/2020/02/10/011%20final%E3%80%81%E6%9D%83%E9%99%90%E3%80%81%E5%86%85%E9%83%A8%E7%B1%BB/"/>
+    <url>/2020/02/10/011%20final%E3%80%81%E6%9D%83%E9%99%90%E3%80%81%E5%86%85%E9%83%A8%E7%B1%BB/</url>
+    
+    <content type="html"><![CDATA[<p><a name="WASJp"></a></p><h1 id="Final"><a href="#Final" class="headerlink" title="Final"></a>Final</h1><p><strong>Final</strong>： 不可改变。可以用于修饰类、方法和变量。 <br />类：被修饰的类，不能被继承。 <br />方法：被修饰的方法，不能被重写。 <br />变量：被修饰的变量，不能被重新赋值。 </p><p>一般将常量名全部用大写表示</p><p><strong>局部变量——基本类型</strong><br />基本类型的局部变量，被final修饰后，只能赋值一次，不能再更改。<br />**局部变量——引用类型 **<br />引用类型的局部变量，被final修饰后，只能指向一个对象，地址不能再更改。</p><p><a name="E3FQm"></a></p><h1 id="权限修饰符"><a href="#权限修饰符" class="headerlink" title="权限修饰符"></a>权限修饰符</h1><p>public  公共的<br />protect 受保护的<br />default 默认的<br />private 私有的<br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1651146093107-d3fb92ad-337f-4ce6-81b5-7f2ef1d4c2eb.png#clientId=ubb8d79da-2a69-4&from=paste&height=208&id=uad0ca63b&name=image.png&originHeight=397&originWidth=1482&originalType=binary&ratio=1&rotation=0&showTitle=false&size=54962&status=done&style=shadow&taskId=u55c993d2-6eb3-4a88-9009-2997cc52786&title=&width=776" alt="image.png"></p><p>回调方法(钩子方法)</p><p>子类的每一个方法开始和结束之前都需要调用一个方法,将该方法写成一个接口,<br />父类中写一个调用该口的方法;<br />在子类中调用执行该接口的方法并按需实现(抽象方法)<br />在父类中调用执行该接口(抽象方法)的方法,<br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1651581279530-f7d6c74d-afe3-4fea-8f8c-e174c45cc4cd.png#clientId=ub11884bc-faa4-4&from=paste&height=644&id=uecc25586&name=image.png&originHeight=805&originWidth=1409&originalType=binary&ratio=1&rotation=0&showTitle=false&size=411904&status=done&style=none&taskId=u1de983b2-c0ec-4a39-87f9-2397893ec29&title=&width=1127.2" alt="image.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>JavaSe</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>final</tag>
+      
+      <tag>权限</tag>
+      
+      <tag>内部类</tag>
       
     </tags>
     
