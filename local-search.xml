@@ -42,5 +42,34 @@
   
   
   
+  <entry>
+    <title>011 final、权限、内部类</title>
+    <link href="/2020/02/10/011%20final%E3%80%81%E6%9D%83%E9%99%90%E3%80%81%E5%86%85%E9%83%A8%E7%B1%BB/"/>
+    <url>/2020/02/10/011%20final%E3%80%81%E6%9D%83%E9%99%90%E3%80%81%E5%86%85%E9%83%A8%E7%B1%BB/</url>
+    
+    <content type="html"><![CDATA[<p><a name="WASJp"></a></p><h1 id="Final"><a href="#Final" class="headerlink" title="Final"></a>Final</h1><p><strong>Final</strong>： 不可改变。可以用于修饰类、方法和变量。 <br />类：被修饰的类，不能被继承。 <br />方法：被修饰的方法，不能被重写。 <br />变量：被修饰的变量，不能被重新赋值。 </p><p>一般将常量名全部用大写表示</p><p><strong>局部变量——基本类型</strong><br />基本类型的局部变量，被final修饰后，只能赋值一次，不能再更改。<br />**局部变量——引用类型 **<br />引用类型的局部变量，被final修饰后，只能指向一个对象，地址不能再更改。</p><p><a name="E3FQm"></a></p><h1 id="权限修饰符"><a href="#权限修饰符" class="headerlink" title="权限修饰符"></a>权限修饰符</h1><p>public  公共的<br />protect 受保护的<br />default 默认的<br />private 私有的<br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1651146093107-d3fb92ad-337f-4ce6-81b5-7f2ef1d4c2eb.png#clientId=ubb8d79da-2a69-4&from=paste&height=208&id=uad0ca63b&name=image.png&originHeight=397&originWidth=1482&originalType=binary&ratio=1&rotation=0&showTitle=false&size=54962&status=done&style=shadow&taskId=u55c993d2-6eb3-4a88-9009-2997cc52786&title=&width=776" alt="image.png"></p><p>回调方法(钩子方法)</p><p>子类的每一个方法开始和结束之前都需要调用一个方法,将该方法写成一个接口,<br />父类中写一个调用该口的方法;<br />在子类中调用执行该接口的方法并按需实现(抽象方法)<br />在父类中调用执行该接口(抽象方法)的方法,<br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1651581279530-f7d6c74d-afe3-4fea-8f8c-e174c45cc4cd.png#clientId=ub11884bc-faa4-4&from=paste&height=644&id=uecc25586&name=image.png&originHeight=805&originWidth=1409&originalType=binary&ratio=1&rotation=0&showTitle=false&size=411904&status=done&style=none&taskId=u1de983b2-c0ec-4a39-87f9-2397893ec29&title=&width=1127.2" alt="image.png"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>JavaSe</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>final</tag>
+      
+      <tag>权限</tag>
+      
+      <tag>内部类</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
   
 </search>
