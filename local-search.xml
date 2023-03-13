@@ -63,33 +63,6 @@
   
   
   <entry>
-    <title>001 常量、变量</title>
-    <link href="/2020/02/10/001%20%E5%89%8D%E8%A8%80%E3%80%81%E5%85%A5%E9%97%A8%E7%A8%8B%E5%BA%8F%E3%80%81%E5%B8%B8%E9%87%8F%E3%80%81%E5%8F%98%E9%87%8F/"/>
-    <url>/2020/02/10/001%20%E5%89%8D%E8%A8%80%E3%80%81%E5%85%A5%E9%97%A8%E7%A8%8B%E5%BA%8F%E3%80%81%E5%B8%B8%E9%87%8F%E3%80%81%E5%8F%98%E9%87%8F/</url>
-    
-    <content type="html"><![CDATA[<p><a name="GAQAR"></a></p><h1 id="常见Dos命令"><a href="#常见Dos命令" class="headerlink" title="常见Dos命令"></a>常见Dos命令</h1><p><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650617063400-c7f585ce-e275-4131-b142-7684aee9b1e5.png#averageHue=%23f8f7f7&clientId=u27cb9286-f397-4&from=paste&height=234&id=u91d6ab1b&name=image.png&originHeight=293&originWidth=695&originalType=binary&ratio=1&rotation=0&showTitle=false&size=32324&status=done&style=none&taskId=uf17940da-5673-412e-95f4-194afb39cfc&title=&width=556" alt="image.png"></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><code class="hljs java">#<span class="hljs-number">1</span> 盘符切换 盘前缀加:(注意英文文)<br>#查看当前目录下的所有文件  dir+回车<br>#切换目录   cd(命令) change directory    <br>#  cd/d  可以进行跨盘符切换  切换格式：cd/d（参数斜杠） d(盘)：\(文件斜杠)   注意这个:不要重复使用<br>#  cd.. 返回上一级  <br>#  cd+目录名，进入该目录    这里没有：号<br><br>#<span class="hljs-number">2</span> 清理屏幕<br>#  cls  (clear screen)<br><br>#<span class="hljs-number">3</span> 退出终端 <br># exit<br><br>#<span class="hljs-number">4</span> 查看电脑ip<br># ipconfig  加all是全开？<br><br>#<span class="hljs-number">5</span> calc 计数器   mspaint  画图   notepad  记事本<br><br>#<span class="hljs-number">6</span> ping 命令<br>ping www.baidu.com  作用：测试网络是否正常    小知识，Cmd右键粘贴<br><br>#<span class="hljs-number">7</span> md test 创建一个名为 test的文件夹<br>#  cd&gt;a.txt 创建一个名为a的txt  同理可以创建其他格式文件<br><br>#<span class="hljs-number">8</span> 删除目录<br># 先删除文件  del a.txt<br># 删除目录： rd test<br><br></code></pre></td></tr></table></figure><p><a name="Es5Ah"></a></p><h1 id="JVM-JDK-JRE"><a href="#JVM-JDK-JRE" class="headerlink" title="JVM,JDK,JRE"></a>JVM,JDK,JRE</h1><p><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650617088710-e3c1b203-a1b7-4bf8-acdb-d982b9c98b2a.png#averageHue=%23f8f7f5&clientId=u27cb9286-f397-4&from=paste&height=542&id=uac529762&name=image.png&originHeight=677&originWidth=757&originalType=binary&ratio=1&rotation=0&showTitle=false&size=239604&status=done&style=none&taskId=u0bbbfdbe-09ce-42bd-a11f-899c1bf0436&title=&width=605.6" alt="image.png"><br><a name="O2f21"></a></p><h1 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h1><p>环境变量（environment variables）一般是指在<a href="https://baike.baidu.com/item/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/192">操作系统</a>中用来指定操作系统运行环境的一些参数，如：<a href="https://baike.baidu.com/item/%E4%B8%B4%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%B9/1061467">临时文件夹</a>位置和<a href="https://baike.baidu.com/item/%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E5%A4%B9/5328647">系统文件夹</a>位置等。<br />       环境<a href="https://baike.baidu.com/item/%E5%8F%98%E9%87%8F">变量</a>是在操作系统中一个具有特定名字的对象，它包含了一个或者多个应用<a href="https://baike.baidu.com/item/%E7%A8%8B%E5%BA%8F">程序</a>所将使用到的信息。例如<a href="https://baike.baidu.com/item/Windows/165458">Windows</a>和<a href="https://baike.baidu.com/item/DOS/32025">DOS</a>操作系统中的path环境变量，当要求系统运行一个<a href="https://baike.baidu.com/item/%E7%A8%8B%E5%BA%8F/71525">程序</a>而没有告诉它程序所在的完整路径时，系统除了在<a href="https://baike.baidu.com/item/%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95/7205107">当前目录</a>下面寻找此程序外，还应到path中指定的路径去找。用户通过设置环境<a href="https://baike.baidu.com/item/%E5%8F%98%E9%87%8F">变量</a>，来更好的运行进程。</p><ol><li>环境变量配置在path路径中的是有优先级的；</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1648812140801-44934c38-b778-4d93-920c-87d7f23aa073.png#averageHue=%23f5f3f1&clientId=u2d2cec3f-7a03-4&from=paste&height=171&id=u29faa5ad&name=image.png&originHeight=342&originWidth=636&originalType=binary&ratio=1&rotation=0&showTitle=false&size=29690&status=done&style=none&taskId=u877ebad4-5c46-4df8-9119-47b0240c6d4&title=&width=318" alt="image.png"></p><p><a name="HTRO3"></a></p><h1 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h1><p><strong>标识符</strong>：是指在程序中，我们自己定义内容。比如类的名字、方法的名字和变量的名字等等，都是标识符。 </p><ul><li>HelloWorld案例中，出现的标识符有类名字 HelloWorld 。**类型 **</li></ul><p>**命名规则： 硬性要求 **</p><ul><li>标识符可以包含 英文字母26个(区分大小写) 、 0-9数字 、 $（美元符号） 和 _（下划线） 。 </li><li>标识符不能以数字开头。 </li><li>标识符不能是关键字。</li></ul><p>**命名规范： 软性建议 **</p><ul><li>类名规范：首字母大写，后面每个单词首字母大写（大驼峰式）。 </li><li>方法名规范： 首字母小写，后面每个单词首字母大写（小驼峰式）。 </li><li>变量名规范：全部小写。</li></ul><p><a name="UYoJo"></a></p><h1 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h1><p>**常量：是指在Java程序中固定不变的数据。 **<br><a name="Z4jFN"></a></p><h1 id=""><a href="#" class="headerlink" title=""></a></h1><p><strong>变量和数据类型</strong><br />**变量：常量是固定不变的数据，那么在程序中可以变化的量称为变量。 **<br />变量定义的格式包括三个要素： 数据类型 、 变量名 、 数据值 <br />**数据类型分类 **<br />Java的数据类型分为两大类： </p><ul><li><strong>基本数据类型</strong>：包括 整数 、 浮点数 、 字符 、 布尔 。 </li><li><strong>引用数据类型</strong>：包括 类 、 数组 、 接口 。</li></ul><p>**基本数据类型 **<br />四类八种基本数据类型： <br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650617280372-32a69872-9abb-404e-a38c-4d73f6e877e2.png#averageHue=%23f4f3f2&clientId=u27cb9286-f397-4&from=paste&height=247&id=ue8c6ff7a&name=image.png&originHeight=309&originWidth=675&originalType=binary&ratio=1&rotation=0&showTitle=false&size=57104&status=done&style=none&taskId=u58af763a-3358-443f-a003-6282734f68c&title=&width=540" alt="image.png"><br />Java中的默认类型：整数类型是 int 、浮点类型是 double 。</p><p>**注意事项 **</p><ul><li>变量名称：在同一个大括号范围内，变量的名字不可以相同。 </li><li>变量赋值：定义的变量，不赋值不能使用。</li></ul>]]></content>
-    
-    
-    <categories>
-      
-      <category>JavaSe</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>常量</tag>
-      
-      <tag>变量</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>002 数据类型转换、运算符、方法入门</title>
     <link href="/2020/02/10/002%20%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E3%80%81%E8%BF%90%E7%AE%97%E7%AC%A6%E3%80%81%E6%96%B9%E6%B3%95%E5%85%A5%E9%97%A8/"/>
     <url>/2020/02/10/002%20%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E3%80%81%E8%BF%90%E7%AE%97%E7%AC%A6%E3%80%81%E6%96%B9%E6%B3%95%E5%85%A5%E9%97%A8/</url>
@@ -111,6 +84,33 @@
       <tag>运算符</tag>
       
       <tag>方法入门</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>001 常量、变量</title>
+    <link href="/2020/02/10/001%20%E5%89%8D%E8%A8%80%E3%80%81%E5%85%A5%E9%97%A8%E7%A8%8B%E5%BA%8F%E3%80%81%E5%B8%B8%E9%87%8F%E3%80%81%E5%8F%98%E9%87%8F/"/>
+    <url>/2020/02/10/001%20%E5%89%8D%E8%A8%80%E3%80%81%E5%85%A5%E9%97%A8%E7%A8%8B%E5%BA%8F%E3%80%81%E5%B8%B8%E9%87%8F%E3%80%81%E5%8F%98%E9%87%8F/</url>
+    
+    <content type="html"><![CDATA[<p><a name="GAQAR"></a></p><h1 id="常见Dos命令"><a href="#常见Dos命令" class="headerlink" title="常见Dos命令"></a>常见Dos命令</h1><p><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650617063400-c7f585ce-e275-4131-b142-7684aee9b1e5.png#averageHue=%23f8f7f7&clientId=u27cb9286-f397-4&from=paste&height=234&id=u91d6ab1b&name=image.png&originHeight=293&originWidth=695&originalType=binary&ratio=1&rotation=0&showTitle=false&size=32324&status=done&style=none&taskId=uf17940da-5673-412e-95f4-194afb39cfc&title=&width=556" alt="image.png"></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><code class="hljs java">#<span class="hljs-number">1</span> 盘符切换 盘前缀加:(注意英文文)<br>#查看当前目录下的所有文件  dir+回车<br>#切换目录   cd(命令) change directory    <br>#  cd/d  可以进行跨盘符切换  切换格式：cd/d（参数斜杠） d(盘)：\(文件斜杠)   注意这个:不要重复使用<br>#  cd.. 返回上一级  <br>#  cd+目录名，进入该目录    这里没有：号<br><br>#<span class="hljs-number">2</span> 清理屏幕<br>#  cls  (clear screen)<br><br>#<span class="hljs-number">3</span> 退出终端 <br># exit<br><br>#<span class="hljs-number">4</span> 查看电脑ip<br># ipconfig  加all是全开？<br><br>#<span class="hljs-number">5</span> calc 计数器   mspaint  画图   notepad  记事本<br><br>#<span class="hljs-number">6</span> ping 命令<br>ping www.baidu.com  作用：测试网络是否正常    小知识，Cmd右键粘贴<br><br>#<span class="hljs-number">7</span> md test 创建一个名为 test的文件夹<br>#  cd&gt;a.txt 创建一个名为a的txt  同理可以创建其他格式文件<br><br>#<span class="hljs-number">8</span> 删除目录<br># 先删除文件  del a.txt<br># 删除目录： rd test<br><br></code></pre></td></tr></table></figure><p><a name="Es5Ah"></a></p><h1 id="JVM-JDK-JRE"><a href="#JVM-JDK-JRE" class="headerlink" title="JVM,JDK,JRE"></a>JVM,JDK,JRE</h1><p><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650617088710-e3c1b203-a1b7-4bf8-acdb-d982b9c98b2a.png#averageHue=%23f8f7f5&clientId=u27cb9286-f397-4&from=paste&height=542&id=uac529762&name=image.png&originHeight=677&originWidth=757&originalType=binary&ratio=1&rotation=0&showTitle=false&size=239604&status=done&style=none&taskId=u0bbbfdbe-09ce-42bd-a11f-899c1bf0436&title=&width=605.6" alt="image.png"><br><a name="O2f21"></a></p><h1 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h1><p>环境变量（environment variables）一般是指在<a href="https://baike.baidu.com/item/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/192">操作系统</a>中用来指定操作系统运行环境的一些参数，如：<a href="https://baike.baidu.com/item/%E4%B8%B4%E6%97%B6%E6%96%87%E4%BB%B6%E5%A4%B9/1061467">临时文件夹</a>位置和<a href="https://baike.baidu.com/item/%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E5%A4%B9/5328647">系统文件夹</a>位置等。<br />       环境<a href="https://baike.baidu.com/item/%E5%8F%98%E9%87%8F">变量</a>是在操作系统中一个具有特定名字的对象，它包含了一个或者多个应用<a href="https://baike.baidu.com/item/%E7%A8%8B%E5%BA%8F">程序</a>所将使用到的信息。例如<a href="https://baike.baidu.com/item/Windows/165458">Windows</a>和<a href="https://baike.baidu.com/item/DOS/32025">DOS</a>操作系统中的path环境变量，当要求系统运行一个<a href="https://baike.baidu.com/item/%E7%A8%8B%E5%BA%8F/71525">程序</a>而没有告诉它程序所在的完整路径时，系统除了在<a href="https://baike.baidu.com/item/%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95/7205107">当前目录</a>下面寻找此程序外，还应到path中指定的路径去找。用户通过设置环境<a href="https://baike.baidu.com/item/%E5%8F%98%E9%87%8F">变量</a>，来更好的运行进程。</p><ol><li>环境变量配置在path路径中的是有优先级的；</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1648812140801-44934c38-b778-4d93-920c-87d7f23aa073.png#averageHue=%23f5f3f1&clientId=u2d2cec3f-7a03-4&from=paste&height=171&id=u29faa5ad&name=image.png&originHeight=342&originWidth=636&originalType=binary&ratio=1&rotation=0&showTitle=false&size=29690&status=done&style=none&taskId=u877ebad4-5c46-4df8-9119-47b0240c6d4&title=&width=318" alt="image.png"></p><p><a name="HTRO3"></a></p><h1 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h1><p><strong>标识符</strong>：是指在程序中，我们自己定义内容。比如类的名字、方法的名字和变量的名字等等，都是标识符。 </p><ul><li>HelloWorld案例中，出现的标识符有类名字 HelloWorld 。**类型 **</li></ul><p>**命名规则： 硬性要求 **</p><ul><li>标识符可以包含 英文字母26个(区分大小写) 、 0-9数字 、 $（美元符号） 和 _（下划线） 。 </li><li>标识符不能以数字开头。 </li><li>标识符不能是关键字。</li></ul><p>**命名规范： 软性建议 **</p><ul><li>类名规范：首字母大写，后面每个单词首字母大写（大驼峰式）。 </li><li>方法名规范： 首字母小写，后面每个单词首字母大写（小驼峰式）。 </li><li>变量名规范：全部小写。</li></ul><p><a name="UYoJo"></a></p><h1 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h1><p>**常量：是指在Java程序中固定不变的数据。 **<br><a name="Z4jFN"></a></p><h1 id=""><a href="#" class="headerlink" title=""></a></h1><p><strong>变量和数据类型</strong><br />**变量：常量是固定不变的数据，那么在程序中可以变化的量称为变量。 **<br />变量定义的格式包括三个要素： 数据类型 、 变量名 、 数据值 <br />**数据类型分类 **<br />Java的数据类型分为两大类： </p><ul><li><strong>基本数据类型</strong>：包括 整数 、 浮点数 、 字符 、 布尔 。 </li><li><strong>引用数据类型</strong>：包括 类 、 数组 、 接口 。</li></ul><p>**基本数据类型 **<br />四类八种基本数据类型： <br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650617280372-32a69872-9abb-404e-a38c-4d73f6e877e2.png#averageHue=%23f4f3f2&clientId=u27cb9286-f397-4&from=paste&height=247&id=ue8c6ff7a&name=image.png&originHeight=309&originWidth=675&originalType=binary&ratio=1&rotation=0&showTitle=false&size=57104&status=done&style=none&taskId=u58af763a-3358-443f-a003-6282734f68c&title=&width=540" alt="image.png"><br />Java中的默认类型：整数类型是 int 、浮点类型是 double 。</p><p>**注意事项 **</p><ul><li>变量名称：在同一个大括号范围内，变量的名字不可以相同。 </li><li>变量赋值：定义的变量，不赋值不能使用。</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>JavaSe</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>常量</tag>
+      
+      <tag>变量</tag>
       
     </tags>
     
@@ -144,6 +144,31 @@
   
   
   <entry>
+    <title>004 IDEA、方法</title>
+    <link href="/2020/02/10/004%20IDEA%E3%80%81%E6%96%B9%E6%B3%95/"/>
+    <url>/2020/02/10/004%20IDEA%E3%80%81%E6%96%B9%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<p><a name="MiVKS"></a></p><h1 id="方法重载"><a href="#方法重载" class="headerlink" title="方法重载"></a>方法重载</h1><ul><li><strong>方法重载</strong>：指在同一个类中，允许存在一个以上的同名方法，只要它们的参数列表不同即可，与修饰符返回值类型无关。 </li><li>参数列表：个数不同，数据类型不同，顺序不同。 </li><li>重载方法调用：JVM通过方法的参数列表，调用不同的方法。</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>JavaSe</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>方法</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>006 类与对象、封装、构造方法</title>
     <link href="/2020/02/10/006%20%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E3%80%81%E5%B0%81%E8%A3%85%E3%80%81%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/"/>
     <url>/2020/02/10/006%20%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E3%80%81%E5%B0%81%E8%A3%85%E3%80%81%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/</url>
@@ -169,11 +194,11 @@
   
   
   <entry>
-    <title>004 IDEA、方法</title>
-    <link href="/2020/02/10/004%20IDEA%E3%80%81%E6%96%B9%E6%B3%95/"/>
-    <url>/2020/02/10/004%20IDEA%E3%80%81%E6%96%B9%E6%B3%95/</url>
+    <title>007 Scanner、Random、ArrayList类</title>
+    <link href="/2020/02/10/007%20Scanner%E7%B1%BB%E3%80%81Random%E7%B1%BB%E3%80%81ArrayList%E7%B1%BB/"/>
+    <url>/2020/02/10/007%20Scanner%E7%B1%BB%E3%80%81Random%E7%B1%BB%E3%80%81ArrayList%E7%B1%BB/</url>
     
-    <content type="html"><![CDATA[<p><a name="MiVKS"></a></p><h1 id="方法重载"><a href="#方法重载" class="headerlink" title="方法重载"></a>方法重载</h1><ul><li><strong>方法重载</strong>：指在同一个类中，允许存在一个以上的同名方法，只要它们的参数列表不同即可，与修饰符返回值类型无关。 </li><li>参数列表：个数不同，数据类型不同，顺序不同。 </li><li>重载方法调用：JVM通过方法的参数列表，调用不同的方法。</li></ul>]]></content>
+    <content type="html"><![CDATA[<p><a name="UtRPf"></a></p><h1 id="Scanner"><a href="#Scanner" class="headerlink" title="Scanner"></a>Scanner</h1><p>一个可以解析基本类型和字符串的简单文本扫描器</p><p><a name="o0AVj"></a></p><h1 id="Random"><a href="#Random" class="headerlink" title="Random"></a>Random</h1><p>public int nextInt(int n) ：返回一个伪随机数，范围在 0 （包括）和 指定值 n （不包括）之间的 int 值。 </p><p><a name="wbAJc"></a></p><h1 id="ArrayList"><a href="#ArrayList" class="headerlink" title="ArrayList"></a>ArrayList</h1><p>java.util.ArrayList 是大小<strong>可变的数组</strong>的实现，存储在内的数据称为元素。此类提供一些方法来操作内部存储的元素。 ArrayList 中可不断添加元素，其大小也自动增长。<br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650619830027-da85ab6a-88b5-4ec6-8a78-8feb904a238a.png#clientId=u074eb56e-009e-4&from=paste&height=258&id=u2b9d5b55&name=image.png&originHeight=322&originWidth=677&originalType=binary&ratio=1&rotation=0&showTitle=false&size=20648&status=done&style=none&taskId=u56ddade9-7ba4-4a4d-a6ee-d3e0e3d13ca&title=&width=541.6" alt="image.png"></p>]]></content>
     
     
     <categories>
@@ -185,7 +210,11 @@
     
     <tags>
       
-      <tag>方法</tag>
+      <tag>Scanner</tag>
+      
+      <tag>Random</tag>
+      
+      <tag>ArrayList类</tag>
       
     </tags>
     
@@ -225,35 +254,6 @@
   
   
   <entry>
-    <title>007 Scanner、Random、ArrayList类</title>
-    <link href="/2020/02/10/007%20Scanner%E7%B1%BB%E3%80%81Random%E7%B1%BB%E3%80%81ArrayList%E7%B1%BB/"/>
-    <url>/2020/02/10/007%20Scanner%E7%B1%BB%E3%80%81Random%E7%B1%BB%E3%80%81ArrayList%E7%B1%BB/</url>
-    
-    <content type="html"><![CDATA[<p><a name="UtRPf"></a></p><h1 id="Scanner"><a href="#Scanner" class="headerlink" title="Scanner"></a>Scanner</h1><p>一个可以解析基本类型和字符串的简单文本扫描器</p><p><a name="o0AVj"></a></p><h1 id="Random"><a href="#Random" class="headerlink" title="Random"></a>Random</h1><p>public int nextInt(int n) ：返回一个伪随机数，范围在 0 （包括）和 指定值 n （不包括）之间的 int 值。 </p><p><a name="wbAJc"></a></p><h1 id="ArrayList"><a href="#ArrayList" class="headerlink" title="ArrayList"></a>ArrayList</h1><p>java.util.ArrayList 是大小<strong>可变的数组</strong>的实现，存储在内的数据称为元素。此类提供一些方法来操作内部存储的元素。 ArrayList 中可不断添加元素，其大小也自动增长。<br /><img src="https://cdn.nlark.com/yuque/0/2022/png/22464502/1650619830027-da85ab6a-88b5-4ec6-8a78-8feb904a238a.png#clientId=u074eb56e-009e-4&from=paste&height=258&id=u2b9d5b55&name=image.png&originHeight=322&originWidth=677&originalType=binary&ratio=1&rotation=0&showTitle=false&size=20648&status=done&style=none&taskId=u56ddade9-7ba4-4a4d-a6ee-d3e0e3d13ca&title=&width=541.6" alt="image.png"></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>JavaSe</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Scanner</tag>
-      
-      <tag>Random</tag>
-      
-      <tag>ArrayList类</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>009 继承、super、this、抽象类</title>
     <link href="/2020/02/10/009%20%E7%BB%A7%E6%89%BF%E3%80%81super%E3%80%81this%E3%80%81%E6%8A%BD%E8%B1%A1%E7%B1%BB/"/>
     <url>/2020/02/10/009%20%E7%BB%A7%E6%89%BF%E3%80%81super%E3%80%81this%E3%80%81%E6%8A%BD%E8%B1%A1%E7%B1%BB/</url>
@@ -285,33 +285,6 @@
   
   
   <entry>
-    <title>010 接口、多态</title>
-    <link href="/2020/02/10/010%20%E6%8E%A5%E5%8F%A3%E3%80%81%E5%A4%9A%E6%80%81/"/>
-    <url>/2020/02/10/010%20%E6%8E%A5%E5%8F%A3%E3%80%81%E5%A4%9A%E6%80%81/</url>
-    
-    <content type="html"><![CDATA[<p><a name="b5TyR"></a></p><h1 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h1><p><a name="ANUE5"></a></p><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>接口是Java语言中一种引用类型，是方法的集合，如果说类的内部封装了成员变量、构造方法和成员方法，那么接口的内部主要就是<strong>封装了方法.</strong><br />jdk 7 及以前 只有抽象方法与常量(可以省略 public abstract)<br />jdk 8 新增了 默认方法和静态方法(可以省略 public)<br />jdk 9 新增了 私有方法<br />接口的定义，它与定义类方式相似，但是使用 interface 关键字。它也会被编译成.class文件，但一定要明确它并不是类，而是另外一种引用数据类型。 </p><p>引用数据类型：数组，类，接口。 </p><p>接口的使用，它不能创建对象，但是可以被实现（ implements ，类似于被继承）。一个实现接口的（可以看做是接口的子类），需要实现接口中所有的抽象方法，创建该类对象，就可以调用方法了，否则它必须是一个抽象类。</p><p>接口中的私有方法一般由接口中的默认方法来调用;静态方法不能调用非静态方法;<br><a name="rkgA6"></a></p><h2 id="接口中的方法"><a href="#接口中的方法" class="headerlink" title="接口中的方法"></a>接口中的方法</h2><ul><li>抽象方法的使用 <ul><li>必须全部实现</li></ul></li><li>默认方法的使用 <ul><li>可以继承，可以重写，二选一，但是只能通过实现类的对象来调用。</li></ul></li><li>静态方法的使用 <ul><li>静态与.class 文件相关，只能使用接口名调用，不可以通过实现类的类名或者实现类的对象调用</li></ul></li><li>私有方法的使用 <ul><li>私有方法：只有默认方法可以调用。 </li><li>私有静态方法：默认方法和静态方法可以调用。</li></ul></li></ul><p>如果一个接口中有多个默认方法，并且方法中有重复的内容，那么可以抽取出来，封装到私有方法   中，供默认方法去调用。从设计的角度讲，私有的方法是对默认方法和静态方法的辅助。</p><p><a name="GvDUz"></a></p><h2 id="接口的多实现"><a href="#接口的多实现" class="headerlink" title="接口的多实现"></a>接口的多实现</h2><p>一个类只能继承一个父类。而对于接口而言，一个类是可以实现多个接口的，这叫做接口的<strong>多实现</strong>。并且，一个类能继承一个父类，同时实现多个接口。<br><a name="QcwFl"></a></p><h3 id="抽象方法"><a href="#抽象方法" class="headerlink" title="抽象方法"></a>抽象方法</h3><p>接口中，有多个抽象方法时，实现类必须重写所有抽象方法<strong>。如果抽象方法有重名的，只需要重写一次。</strong><br><a name="hsoHH"></a></p><h3 id="默认方法"><a href="#默认方法" class="headerlink" title="默认方法"></a>默认方法</h3><p>接口中，有多个默认方法时，实现类都可继承使用。<strong>如果默认方法有重名的，必须重写一次。</strong></p><p><a name="pzylR"></a></p><h3 id="静态方法"><a href="#静态方法" class="headerlink" title="静态方法"></a>静态方法</h3><p>接口中，存在同名的静态方法并不会冲突，原因是只能通过各自接口名访问静态方法。 </p><p><a name="huRtW"></a></p><h3 id="优先级的问题"><a href="#优先级的问题" class="headerlink" title="优先级的问题"></a>优先级的问题</h3><p>当一个类，既继承一个父类，又实现若干个接口时，父类中的成员方法与接口中的默认方法重名，子类就近选择执行父类的成员方法。</p><p><a name="ndYwY"></a></p><h2 id="接口的多继承"><a href="#接口的多继承" class="headerlink" title="接口的多继承"></a>接口的多继承</h2><p>一个接口能继承另一个或者多个接口，这和类之间的继承比较相似。接口的继承使用 extends 关键字，子接口继承父接口的方法。<strong>如果父接口中的默认方法有重名的，那么子接口需要重写一次。</strong><br />小贴士： <br />子接口重写默认方法时，default关键字可以保留。 <br />子类重写默认方法时，default关键字不可以保留。</p><p><a name="Me9Vs"></a></p><h2 id="其他成员特点"><a href="#其他成员特点" class="headerlink" title="其他成员特点"></a>其他成员特点</h2><ul><li>接口中，无法定义成员变量，但是可以定义常量，其值不可以改变，默认使用public static fifinal修饰。 </li><li>接口中，没有构造方法，不能创建对象。 </li><li>接口中，没有静态代码块。</li></ul><p><a name="RyM41"></a></p><h1 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h1><p><a name="JgRpu"></a></p><h2 id="定义"><a href="#定义" class="headerlink" title="定义:"></a>定义:</h2><p><strong>多态</strong>： 是指同一行为，具有多个不同表现形式。 </p><p><a name="Gk4WM"></a></p><h2 id="前提【重点】"><a href="#前提【重点】" class="headerlink" title="前提【重点】"></a>前提【重点】</h2><ol><li>继承或者实现【二选一】 <br />2. 方法的重写【意义体现：不重写，无意义】 <br />3. 父类引用指向子类对象【格式体现】</li></ol><p><a name="nQ6Ve"></a></p><h2 id="多态的体现"><a href="#多态的体现" class="headerlink" title="多态的体现"></a>多态的体现</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java">父类类型 变量名 = <span class="hljs-keyword">new</span> 子类对象； <br>变量名.方法名(); <br></code></pre></td></tr></table></figure><p><strong>当使用多态方式调用方法时，首先检查父类中是否有该方法，如果没有，则编译错误；如果有，执行的是子类重写后方法。</strong></p><p><a name="Zqpl7"></a></p><h2 id="多态的好处"><a href="#多态的好处" class="headerlink" title="多态的好处"></a>多态的好处</h2><p>实际开发的过程中，父类类型作为方法形式参数，传递子类对象给方法，进行方法的调用，更能体现出多态的扩展性与便利。</p><p><a name="gD3a5"></a></p><h2 id="引用类型转换"><a href="#引用类型转换" class="headerlink" title="引用类型转换"></a>引用类型转换</h2><p>多态的转型分为向上转型与向下转型两种： </p><p><strong>向上转型</strong>：多态本身是子类类型向父类类型向上转换的过程，这个过程是默认的。 <br />当父类引用指向一个子类对象时，便是向上转型。 <br /> <br /><strong>向下转型</strong>：父类类型向子类类型向下转换的过程，这个过程是强制的。 </p><p> <br /><strong>为什么要转型 <strong><br />当使用多态方式调用方法时，首先检查父类中是否有该方法，如果没有，则编译错误。也就是说，</strong>不能调用</strong>子类拥有，而父类没有的方法。编译都错误，更别说运行了。这也是多态给我们带来的一点”小麻烦”。所以，想要调用子类特有的方法，必须做向下转型。 <br />Java提供了 instanceof 关键字，给引用变量做类型的校验</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>JavaSe</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>接口</tag>
-      
-      <tag>多态</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>011 final、权限、内部类</title>
     <link href="/2020/02/10/011%20final%E3%80%81%E6%9D%83%E9%99%90%E3%80%81%E5%86%85%E9%83%A8%E7%B1%BB/"/>
     <url>/2020/02/10/011%20final%E3%80%81%E6%9D%83%E9%99%90%E3%80%81%E5%86%85%E9%83%A8%E7%B1%BB/</url>
@@ -333,6 +306,33 @@
       <tag>权限</tag>
       
       <tag>内部类</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>010 接口、多态</title>
+    <link href="/2020/02/10/010%20%E6%8E%A5%E5%8F%A3%E3%80%81%E5%A4%9A%E6%80%81/"/>
+    <url>/2020/02/10/010%20%E6%8E%A5%E5%8F%A3%E3%80%81%E5%A4%9A%E6%80%81/</url>
+    
+    <content type="html"><![CDATA[<p><a name="b5TyR"></a></p><h1 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h1><p><a name="ANUE5"></a></p><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>接口是Java语言中一种引用类型，是方法的集合，如果说类的内部封装了成员变量、构造方法和成员方法，那么接口的内部主要就是<strong>封装了方法.</strong><br />jdk 7 及以前 只有抽象方法与常量(可以省略 public abstract)<br />jdk 8 新增了 默认方法和静态方法(可以省略 public)<br />jdk 9 新增了 私有方法<br />接口的定义，它与定义类方式相似，但是使用 interface 关键字。它也会被编译成.class文件，但一定要明确它并不是类，而是另外一种引用数据类型。 </p><p>引用数据类型：数组，类，接口。 </p><p>接口的使用，它不能创建对象，但是可以被实现（ implements ，类似于被继承）。一个实现接口的（可以看做是接口的子类），需要实现接口中所有的抽象方法，创建该类对象，就可以调用方法了，否则它必须是一个抽象类。</p><p>接口中的私有方法一般由接口中的默认方法来调用;静态方法不能调用非静态方法;<br><a name="rkgA6"></a></p><h2 id="接口中的方法"><a href="#接口中的方法" class="headerlink" title="接口中的方法"></a>接口中的方法</h2><ul><li>抽象方法的使用 <ul><li>必须全部实现</li></ul></li><li>默认方法的使用 <ul><li>可以继承，可以重写，二选一，但是只能通过实现类的对象来调用。</li></ul></li><li>静态方法的使用 <ul><li>静态与.class 文件相关，只能使用接口名调用，不可以通过实现类的类名或者实现类的对象调用</li></ul></li><li>私有方法的使用 <ul><li>私有方法：只有默认方法可以调用。 </li><li>私有静态方法：默认方法和静态方法可以调用。</li></ul></li></ul><p>如果一个接口中有多个默认方法，并且方法中有重复的内容，那么可以抽取出来，封装到私有方法   中，供默认方法去调用。从设计的角度讲，私有的方法是对默认方法和静态方法的辅助。</p><p><a name="GvDUz"></a></p><h2 id="接口的多实现"><a href="#接口的多实现" class="headerlink" title="接口的多实现"></a>接口的多实现</h2><p>一个类只能继承一个父类。而对于接口而言，一个类是可以实现多个接口的，这叫做接口的<strong>多实现</strong>。并且，一个类能继承一个父类，同时实现多个接口。<br><a name="QcwFl"></a></p><h3 id="抽象方法"><a href="#抽象方法" class="headerlink" title="抽象方法"></a>抽象方法</h3><p>接口中，有多个抽象方法时，实现类必须重写所有抽象方法<strong>。如果抽象方法有重名的，只需要重写一次。</strong><br><a name="hsoHH"></a></p><h3 id="默认方法"><a href="#默认方法" class="headerlink" title="默认方法"></a>默认方法</h3><p>接口中，有多个默认方法时，实现类都可继承使用。<strong>如果默认方法有重名的，必须重写一次。</strong></p><p><a name="pzylR"></a></p><h3 id="静态方法"><a href="#静态方法" class="headerlink" title="静态方法"></a>静态方法</h3><p>接口中，存在同名的静态方法并不会冲突，原因是只能通过各自接口名访问静态方法。 </p><p><a name="huRtW"></a></p><h3 id="优先级的问题"><a href="#优先级的问题" class="headerlink" title="优先级的问题"></a>优先级的问题</h3><p>当一个类，既继承一个父类，又实现若干个接口时，父类中的成员方法与接口中的默认方法重名，子类就近选择执行父类的成员方法。</p><p><a name="ndYwY"></a></p><h2 id="接口的多继承"><a href="#接口的多继承" class="headerlink" title="接口的多继承"></a>接口的多继承</h2><p>一个接口能继承另一个或者多个接口，这和类之间的继承比较相似。接口的继承使用 extends 关键字，子接口继承父接口的方法。<strong>如果父接口中的默认方法有重名的，那么子接口需要重写一次。</strong><br />小贴士： <br />子接口重写默认方法时，default关键字可以保留。 <br />子类重写默认方法时，default关键字不可以保留。</p><p><a name="Me9Vs"></a></p><h2 id="其他成员特点"><a href="#其他成员特点" class="headerlink" title="其他成员特点"></a>其他成员特点</h2><ul><li>接口中，无法定义成员变量，但是可以定义常量，其值不可以改变，默认使用public static fifinal修饰。 </li><li>接口中，没有构造方法，不能创建对象。 </li><li>接口中，没有静态代码块。</li></ul><p><a name="RyM41"></a></p><h1 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h1><p><a name="JgRpu"></a></p><h2 id="定义"><a href="#定义" class="headerlink" title="定义:"></a>定义:</h2><p><strong>多态</strong>： 是指同一行为，具有多个不同表现形式。 </p><p><a name="Gk4WM"></a></p><h2 id="前提【重点】"><a href="#前提【重点】" class="headerlink" title="前提【重点】"></a>前提【重点】</h2><ol><li>继承或者实现【二选一】 <br />2. 方法的重写【意义体现：不重写，无意义】 <br />3. 父类引用指向子类对象【格式体现】</li></ol><p><a name="nQ6Ve"></a></p><h2 id="多态的体现"><a href="#多态的体现" class="headerlink" title="多态的体现"></a>多态的体现</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs java">父类类型 变量名 = <span class="hljs-keyword">new</span> 子类对象； <br>变量名.方法名(); <br></code></pre></td></tr></table></figure><p><strong>当使用多态方式调用方法时，首先检查父类中是否有该方法，如果没有，则编译错误；如果有，执行的是子类重写后方法。</strong></p><p><a name="Zqpl7"></a></p><h2 id="多态的好处"><a href="#多态的好处" class="headerlink" title="多态的好处"></a>多态的好处</h2><p>实际开发的过程中，父类类型作为方法形式参数，传递子类对象给方法，进行方法的调用，更能体现出多态的扩展性与便利。</p><p><a name="gD3a5"></a></p><h2 id="引用类型转换"><a href="#引用类型转换" class="headerlink" title="引用类型转换"></a>引用类型转换</h2><p>多态的转型分为向上转型与向下转型两种： </p><p><strong>向上转型</strong>：多态本身是子类类型向父类类型向上转换的过程，这个过程是默认的。 <br />当父类引用指向一个子类对象时，便是向上转型。 <br /> <br /><strong>向下转型</strong>：父类类型向子类类型向下转换的过程，这个过程是强制的。 </p><p> <br /><strong>为什么要转型 <strong><br />当使用多态方式调用方法时，首先检查父类中是否有该方法，如果没有，则编译错误。也就是说，</strong>不能调用</strong>子类拥有，而父类没有的方法。编译都错误，更别说运行了。这也是多态给我们带来的一点”小麻烦”。所以，想要调用子类特有的方法，必须做向下转型。 <br />Java提供了 instanceof 关键字，给引用变量做类型的校验</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>JavaSe</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>接口</tag>
+      
+      <tag>多态</tag>
       
     </tags>
     
